@@ -1,4 +1,4 @@
-# Scotty Scheduler (Winner of the "Best Use of Mistral" Prize in the Google Deepmind AI Agents Hackathon, 2025 at CMU)
+# Scotty Scheduler (Winner in the Google Deepmind AI Agents Hackathon, 2025 at CMU)
 
 
 ## Data Resources

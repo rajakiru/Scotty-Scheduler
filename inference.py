@@ -156,13 +156,14 @@ def health_check():
     }), 200
 
 if __name__ == "__main__":
-    port = int(os.getenv("FLASK_PORT", 5000))
+    # Render provides PORT env variable, fallback to FLASK_PORT or 5000
+    port = int(os.getenv("PORT", os.getenv("FLASK_PORT", 5000)))
     debug = os.getenv("FLASK_DEBUG", "False").lower() == "true"
 
     print("=" * 60)
     print("Scotty Scheduler API Server")
     print("=" * 60)
-    print(f"Server running on: http://localhost:{port}")
+    print(f"Server running on: http://0.0.0.0:{port}")
     print(f"Debug mode: {debug}")
     print(f"Endpoints:")
     print(f"  POST /query  - Get course recommendations")

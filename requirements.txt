@@ -1,0 +1,27 @@
+# Core dependencies
+streamlit>=1.28.0
+flask>=3.0.0
+
+# LlamaIndex
+llama-index-core>=0.10.0
+llama-index-llms-openai>=0.1.0
+llama-index-embeddings-huggingface>=0.1.0
+
+# HuggingFace (explicitly specify to avoid warnings)
+huggingface-hub>=0.20.0
+
+# PDF processing
+PyMuPDF>=1.23.0
+
+# Web scraping (for syllabus_scraper.py)
+selenium>=4.15.0
+
+# Data processing
+pandas>=2.1.0
+openpyxl>=3.1.0  # For Excel file handling
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Utilities
+requests>=2.31.0

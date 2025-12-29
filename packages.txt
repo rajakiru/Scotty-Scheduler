@@ -1,6 +1,2 @@
-# System dependencies for Streamlit Cloud
-# These packages will be installed via apt-get
-
-# For PyMuPDF (PDF processing)
 libmupdf-dev
 mupdf-tools
